@@ -1,6 +1,7 @@
 header{
     display: flex;
     justify-content: space-around;
+    text-align: center;
     margin-top: 10px;
     margin-bottom: 30px;
     border-bottom: 1px solid #3B3B3B;
@@ -9,7 +10,7 @@ nav{
     display: flex;
     justify-content: space-between;
     gap: 50px;
-    
+    text-align: center;
 }
 img{
     width: 70px;
@@ -56,6 +57,88 @@ button:hover {
 }
 
 button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.signin{
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #32ff04;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3ace1c;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  margin-top: 5px;
+}
+.signin:disabled{
+  pointer-events: none;
+
+}
+.signin:hover{
+  color: #ffffff;
+  background-color: #0bf407;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+.signin:active{
+  box-shadow: none;
+  transform: translateY(0);
+}
+.signup{
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1a59d8;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #0084ff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  margin-top: 5px;
+}
+.signup:disabled{
+  pointer-events: none;
+}
+.signup:hover{
+  color: #ffffff;
+  background-color: #07a1f4;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}.signup:active{
   box-shadow: none;
   transform: translateY(0);
 }

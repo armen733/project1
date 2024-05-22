@@ -1,0 +1,105 @@
+
+
+.buy{
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9;
+    border: 0;
+  }
+  
+  .buy:hover {
+    background: #038d4f;
+  }
+  
+  .basketitem{
+      width: 400px;
+      height: auto;
+      padding: 30px;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      /* border-color: 1px solid #00BD68 ; */
+      border: 1px solid #00BD68;
+      gap: 7px;
+  }
+  .basketbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0px;
+  }
+  .baskets{
+    display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+  }
+  .basketimg{
+      width: 300px;
+      height: 300px;
+  }
+  p{
+      margin-bottom: 20px;
+      margin-top: 20px;
+  }
+  h6{
+    font-size: xx-large;
+  }
+  h4{
+    font-size: x-large;
+  }
+h1{
+    font-size: large;
+}
+.ratingbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+}
+.star{
+    color: rgb(255, 166, 0);
+    
+}
+.stardiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ordercount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.ratingh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.payment{
+    display: flex;
+}

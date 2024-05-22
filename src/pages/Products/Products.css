@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 100px;
+  /* gap: 100px; */
   
     /* background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDI0LTAxL3Jhd3BpeGVsb2ZmaWNlMV9wcm9kdWN0X3BvZGl1bV9iYWNrZHJvcF9hZ2FpbnN0X3RoZV9ibHVycnlfYmFja19mZmJiMGIyNi01Y2M3LTQ2M2YtODczYy1iMjY1Nzg0NTc5ZDdfMS5qcGc.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -20,20 +20,40 @@
     justify-content: center;
     text-align: center;
     gap: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
+    border:2px solid #3B3B3B ;
+    border-radius: 14px;
+    padding: 20px;
+    background-image: url(https://img.freepik.com/free-vector/gradient-white-monochrome-background_23-2149000966.jpg);
+    background-size: contain;
+    background-repeat: repeat;
+    -webkit-box-shadow: -1px 1px 5px 9px  rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
 }
 .prodbox{
     display: flex;
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    width: 300px;
-    height: 300px;
-    margin: 100px;
-    
+    width: 310px;
+    height: 520px;
+    /* margin: 100px; */
+    border-radius: 14px;
+    border:2px solid #3B3B3B ;
+    background-color: white;
+    -webkit-box-shadow: -1px 1px 5px 9px  rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    transition: all .3s ease-out;
+
+}
+.prodbox:hover{
+  transform: translate(0, -40px);
+
 }
 
-button{
+.buttonadd{
     appearance: none;
     background-color: transparent;
     border: 2px solid #1A1A1A;
@@ -59,21 +79,21 @@ button{
     touch-action: manipulation;
     width: 100%;
     will-change: transform;
-    margin-top: 5px;
+    margin-top: 30px;
   }
   
-  button:disabled {
+  .buttonadd:disabled {
     pointer-events: none;
   }
   
-  button:hover {
+  .buttonadd:hover {
     color: #fff;
     background-color: #1A1A1A;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
   }
   
-  button:active {
+  .buttonadd:active {
     box-shadow: none;
     transform: translateY(0);
   }

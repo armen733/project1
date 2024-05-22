@@ -2,6 +2,10 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { AiOutlineShopping } from "react-icons/ai";
 import { FaPhone } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
+import { TiUserAdd } from "react-icons/ti";
+import { MdHome } from "react-icons/md";
+import { AiFillProduct } from "react-icons/ai";
 
 import "./Header.css"
 
@@ -13,10 +17,13 @@ const Header = () => {
             />
         </div>
         <nav>
-            <NavLink to="/"><button>Home</button></NavLink>
-            <NavLink to="/products"><button>Products</button></NavLink>
-            <NavLink to="*"><button><AiOutlineShopping className='c' /></button></NavLink>
-            <NavLink to="#"><button><FaPhone /></button></NavLink>
+            <NavLink to="/"><button>Home <MdHome /></button></NavLink>
+            <NavLink to="/products"><button>Products<AiFillProduct /></button></NavLink>
+            <NavLink to="/basket"><button>Basket <AiOutlineShopping/></button></NavLink>
+            <NavLink to="#"><button> Contact <FaPhone /></button></NavLink>
+            <NavLink><button className='signin'>Sign In <FaRegUser /></button></NavLink>
+            <NavLink><button className='signup'>Sign Up <TiUserAdd /></button></NavLink>
+            <NavLink></NavLink>
         </nav>
       </header>
   )
