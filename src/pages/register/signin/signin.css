@@ -1,0 +1,81 @@
+.formikdiv{
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    text-align: center; */
+    border: 1px solid black ;
+    height: 600px;
+    background-color: rgba(0, 229, 255, 0.757);
+    -webkit-box-shadow: -1px 1px 5px 9px  rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+
+.sbm{
+    background-color: initial;
+    background-image: linear-gradient(-180deg, #00D775, #00BD68);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Inter,-apple-system,system-ui,Roboto,"Helvetica Neue",Arial,sans-serif;
+    height: 44px;
+    line-height: 44px;
+    outline: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    pointer-events: auto;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 9;
+    border: 0;
+  }
+  
+  .sbm:hover {
+    background: #038d4f;
+  }
+  .forms{
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+    -webkit-box-shadow: -1px 1px 5px 9px  rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
+  }
+  .log{
+    position: absolute;
+    top: 70px;
+    right: 60px;
+  }
+  .pasw{
+    position: absolute;
+    top: 130px;
+    right: 60px;
+    cursor: pointer;
+  }
+input{
+    padding: 20px;
+}
+h1{
+    text-decoration: none;
+    cursor: pointer;
+}
+h6{
+  color: red;
+  font-size: small;
+}
+

@@ -21,8 +21,8 @@ const Header = () => {
             <NavLink to="/products"><button>Products<AiFillProduct /></button></NavLink>
             <NavLink to="/basket"><button>Basket <AiOutlineShopping/></button></NavLink>
             <NavLink to="#"><button> Contact <FaPhone /></button></NavLink>
-            <NavLink><button className='signin'>Sign In <FaRegUser /></button></NavLink>
-            <NavLink><button className='signup'>Sign Up <TiUserAdd /></button></NavLink>
+            <NavLink to="/signin"><button className='signin'>Sign In <FaRegUser /></button></NavLink>
+            <NavLink to="/signup"><button className='signup'>Sign Up <TiUserAdd /></button></NavLink>
             <NavLink></NavLink>
         </nav>
       </header>
